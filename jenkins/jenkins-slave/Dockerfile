@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL maintainer nicksors
+LABEL maintainer jackyang
 
 RUN yum install -y java-1.8.0-openjdk maven curl git libtool-ltdl-devel && \ 
     yum clean all && \
